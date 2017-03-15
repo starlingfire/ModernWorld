@@ -1,0 +1,6 @@
+{
+	"parent": "sfmw:block/vending_machine",
+	"textures": {
+		"layer0":"sfmw:blocks/vending_machine"
+	}
+}

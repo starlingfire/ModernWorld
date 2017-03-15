@@ -1,5 +1,10 @@
 package com.guaccraft.modernworld;
 
+import com.guaccraft.modernworld.init.ModBlocks;
+import com.guaccraft.modernworld.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -36,4 +41,21 @@ public class ModernWorld {
 		proxy.postInit(event);
 	}
 	
+	public static CreativeTabs tabMoney = new CreativeTabs(Reference.RESOURCE_PREFIX + "tab_money"){
+		
+		@Override
+		public ItemStack getTabIconItem() {
+			
+			return new ItemStack(ModItems.dollarBillItem);
+		}
+	};
+	
+	public static CreativeTabs tabAppliances = new CreativeTabs(Reference.RESOURCE_PREFIX + "tab_appliances"){
+		
+		@Override
+		public ItemStack getTabIconItem() {
+			
+			return new ItemStack(ModBlocks.vendingMachineBlock);
+		}
+	};
 }

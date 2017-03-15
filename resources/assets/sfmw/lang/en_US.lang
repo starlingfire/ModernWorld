@@ -1,0 +1,18 @@
+# Blocks
+
+tile.sfmw:vending_machine.name=Vending Machine
+
+# Items
+
+item.sfmw:vending_machine.name=Vending Machine
+item.sfmw:dollar_bill_one.name=$1 Bill
+item.sfmw:dollar_bill_five.name=$5 Bill
+item.sfmw:dollar_bill_ten.name=$10 Bill
+item.sfmw:dollar_bill_twenty.name=$20 Bill
+item.sfmw:dollar_bill_fifty.name=$50 Bill
+item.sfmw:dollar_bill_hundred.name=$100 Bill
+
+# Creative Tabs
+
+itemGroup.sfmw:tab_money = Money
+itemGroup.sfmw:tab_appliances = Appliances

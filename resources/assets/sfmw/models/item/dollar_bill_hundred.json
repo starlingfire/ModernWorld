@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0":"sfmw:items/dollar_bill_hundred"
+	}
+}

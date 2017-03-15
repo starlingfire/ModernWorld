@@ -1,0 +1,12 @@
+[
+{
+	"modid": "sfmw",
+	"name": "Starlingfire's Modern World",
+	"description": "A modern world",
+	"version":"${version}",
+	"mcversion": "${mcversion}",
+	"url": "https://github.com/starlingfire/ModernWorld",
+	"authors": [ "Starlingfire" ],
+	"credits": ""
+}
+]

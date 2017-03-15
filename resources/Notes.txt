@@ -1,0 +1,4 @@
+Each Item must have the following:
+    - Constructor
+    - addRecipes [method]
+    - getUnlocalizedName [method] that returns "item.modernworld:dollar_bill_one"
